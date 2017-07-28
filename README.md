@@ -6,15 +6,17 @@ LCD Library for Keil uVision with C51 Compiler for AT89Sxx Devices;
 
 Connections: 
   LCD_PINS              Microcontroller Pins
-    RS          ----->      P1^0
-		RW          ----->      P1^1
-		EN          ----->      P1^2
-    LED+        ----->      P1^4 (Optional)
-    D0 - D7     ----->   P3^0 - P3^7
+   	RS          ----->      P1^0		;
+	RW          ----->      P1^1		;
+	EN          ----->      P1^2		;
+    	LED+        ----->      P1^4 (Optional)	;
+   	D0 - D7     ----->   P3^0 - P3^7	;
     
     Note: Here we have Provided Functionality to Control the Green Backlight Of LCD from microcontroller.
           You will need a transistor to Get A Fully Bright Display.
 Function Documentation:
+
+
 void 	init_LCD(void);
   This function Initializes the LCD Display, it should be run after Power-Up only.
   
